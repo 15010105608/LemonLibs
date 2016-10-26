@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/RoundProgressDialog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/applib_shape_bg_round_progress"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/iv_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:contentDescription="@null"
+                android:src="@drawable/waiquan_03" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:contentDescription="@null"
+                android:src="@drawable/wenzi_03" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_jiazai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="努力加载中..."
+            android:textColor="#333"
+            android:gravity="center_horizontal"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/applib_round_toast_icon_padding_right"
+        android:ellipsize="end"
+        android:lines="1"
+        android:text="@string/applib_test"
+        android:textColor="@color/applib_round_toast_msg_color"
+        android:textSize="@dimen/applib_round_toast_msg_fontsize" />
+
+</LinearLayout>

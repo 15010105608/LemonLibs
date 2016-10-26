@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 自定义Toast的背景色 -->
+    <color name="applib_round_toast_bg">#EBECEB</color>
+    <!-- 自定义Toast的字体颜色 -->
+    <color name="applib_round_toast_msg_color">#ff787878</color>
+    <!-- 自定义Toast的字体颜色 -->
+    <color name="applib_round_toast_dialog_msg_color">#ff787878</color>
+    
+    <!-- 自定义ProgressDialog的背景色 -->
+    <color name="applib_progress_toast_bg">#ffffff</color>
+    <!-- 自定义ProgressDialog的字体颜色 -->
+    <color name="applib_progress_toast_msg_color">#ffffffff</color>
+  	<!-- 自定义Dialog的背景色 -->
+    <color name="applib_dialog_toast_bg">#ffEBEBEB</color>
+</resources>

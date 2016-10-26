@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 自定义Toast的宽度 -->
+    <dimen name="applib_round_toast_w">250dp</dimen>
+    <!-- 自定义Toast的高度 -->
+    <dimen name="applib_round_toast_h">180dp</dimen>
+    <!-- 自定义Toast的图标paddingRight -->
+    <dimen name="applib_round_toast_icon_padding_right">10dp</dimen>
+    <!-- 自定义Toast的字体大小 -->
+    <dimen name="applib_round_toast_msg_fontsize">14sp</dimen>
+    <!-- 自定义Toast的圆角半径 -->
+    <dimen name="applib_round_toast_radius">4dp</dimen>
+
+    <!-- 自定义ProgressDialog的圆角半径 -->
+    <dimen name="applib_round_progress_radius">8dp</dimen>
+  	<!-- 自定义Dialog的圆角半径 -->
+    <dimen name="applib_round_dialog_radius">4dp</dimen>
+    
+    <!-- 滚动点的高宽 -->
+    <dimen name="applib_selectedPoint_wh">12dp</dimen>
+    <!-- 滚动点的间隔距离 -->
+    <dimen name="applib_selectedPoint_space">2dp</dimen>
+
+</resources>

@@ -1,0 +1,76 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <!-- 自定义进度条提示RoundProgressDialog主题 -->
+    <style name="RoundProgressDialog_Theme" parent="@android:style/Theme.Dialog">
+
+        <!-- Dialog的windowFrame框为无 -->
+        <item name="android:windowFrame">@null</item>
+        <!-- 是否漂现在activity上 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 对话框是否有遮盖 -->
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- 对话框是否透明 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 对话框的背景 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 对话框无标题 -->
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <!-- 自定义进度条提示RoundProgressDialog -->
+    <style name="RoundProgressDialog">
+        <item name="android:minWidth">60dp</item>
+        <item name="android:minHeight">60dp</item>
+        <item name="android:paddingTop">20dp</item>
+        <item name="android:paddingBottom">20dp</item>
+        <item name="android:paddingLeft">30dp</item>
+        <item name="android:paddingRight">30dp</item>
+    </style>
+
+    <!-- 自定义消息提示RoundToast -->
+    <style name="RoundToast">
+        <item name="android:minWidth">60dp</item>
+        <item name="android:paddingTop">15dp</item>
+        <item name="android:paddingBottom">15dp</item>
+        <item name="android:paddingLeft">25dp</item>
+        <item name="android:paddingRight">25dp</item>
+    </style>
+
+    <!-- 对话框式窗口 -->
+    <style name="Activity_Dialog_Theme" parent="@style/RoundProgressDialog_Theme">
+
+        <!-- 模糊 -->
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="Dialog_Fullscreen">
+
+        <!-- 对话框是否透明 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="RoundToast_Animation" parent="@android:style/Animation.Toast">
+        <item name="android:windowEnterAnimation">@anim/applib_dialog_center_in</item>
+        <item name="android:windowExitAnimation">@anim/applib_dialog_center_out</item>
+    </style>
+
+</resources>
